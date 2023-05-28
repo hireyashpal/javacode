@@ -6,7 +6,7 @@ public class PraparedStatementWithBP
 {
   public static void main(String []args) throws Exception
   {
-	  System.out.println("connection done");
+	  
 	  Class.forName("com.mysql.cj.jdbc.Driver");
 	  
 	  Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3307/peja10","root","Yashpal@123");
