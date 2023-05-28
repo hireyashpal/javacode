@@ -20,7 +20,7 @@ public class PraparedStatementWithBP
 	  
 	  ps.executeBatch();
 	  
-	  System.out.println("Add!");
+	  System.out.println("Add! successfully");
 	  
   }
 }
